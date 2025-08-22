@@ -3,11 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Selenium.Lab9_lab4crossbrowser">
+      <class name="Selenium.TC0012_TestNg2_pagefactory">
         <methods>
-          <include name="test2"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterSuite"/>
+          <include name="f" invocation-numbers="0"/>
         </methods>
-      </class> <!-- Selenium.Lab9_lab4crossbrowser -->
+      </class> <!-- Selenium.TC0012_TestNg2_pagefactory -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
